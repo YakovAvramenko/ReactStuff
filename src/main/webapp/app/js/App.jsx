@@ -1,5 +1,6 @@
 import "../styles/main.scss";
-import "bootstrap-webpack";
+
+
 import React from "react/addons";
 import MicroEvent from "microevent";
 

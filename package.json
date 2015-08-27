@@ -7,15 +7,16 @@
   "version": "0.0.1",
   "description": "An example module to illustrate the usage of a package.json",
   "dependencies": {
-    "bootstrap": "^3.3.1",
-    "bootstrap-webpack": "0.0.4",
     "flux": "^2.0.1",
     "jquery": "~2.1.3",
     "react": "~0.13.3",
-    "react-bootstrap": "^0.25.0"
+    "react-bootstrap": "^0.25.0",
+    "bootstrap-sass": "~3.3.5",
+    "bootstrap-sass-loader": "^1.0.8"
   },
   "devDependencies": {
     "react-tools": "*",
+    "bootstrap-webpack": "0.0.4",
     "showdown": "latest",
     "browser-sync": "^2.2.3",
     "eslint-plugin-react": "^2.3.0",
@@ -44,11 +45,12 @@
     "sass-loader": "^0.4.2",
     "style-loader": "^0.12.2",
     "babel-loader": "*",
+    "imports-loader": "^0.6.3",
     "babel-eslint": "^3.1.5",
     "css-loader": "*",
     "autoprefixer-loader": "*",
     "file-loader": "*",
-    "url-loader": "*",
+    "url-loader": "~0.5.5",
     "microevent": "^1.0.0",
     "autoprefixer-core": "^5.2.0",
     "csswring": "3.0.5",

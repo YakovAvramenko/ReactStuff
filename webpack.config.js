@@ -13,9 +13,9 @@ module.exports = function (props) {
 
         context: path.join(__dirname, props.context_path),
 
-        entry: {
-            app: './js/App.jsx'
-        },
+        entry: [
+             './js/App.jsx'  , 'bootstrap-sass'
+        ],
 
         output: {
             path: path.join(__dirname, props.target_dir),
